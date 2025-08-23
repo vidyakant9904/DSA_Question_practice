@@ -5,7 +5,7 @@ using namespace std;
 void reverse(int arr[], int n){
     int start = 0;
     int end = n - 1;
-    for(int i=0 ; i < n ; i++){
+    while(start < end){
         swap(arr[start] , arr[end]);
         start++;
         end--;
@@ -31,5 +31,20 @@ int main(){
     
     // this is function to call reverse function 
     reverse(arr, 9);
-    reverse(arr, 9);
-}
+    reverse(brr,9);
+
+
+   cout<< "print the array after reversing: " << endl;
+    printArray(arr , 9);
+    printArray(brr , 9);
+    
+    
+
+    return 0;
+
+ }
+
+
+
+
+
