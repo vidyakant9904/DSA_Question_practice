@@ -9,10 +9,10 @@ void maxminValue(int arr[] , int n){
     int minValue = arr[0];
 
     for(int i=1; i<n ; i++){
-        if(minValue < arr[i]){
+        if(minValue > arr[i]){
            minValue = arr[i]; // update the value of minValue
         }
-        if(maxValue > arr[i]){
+        if(maxValue < arr[i]){
             maxValue = arr[i]; // update the value of maxValue
         }
        
