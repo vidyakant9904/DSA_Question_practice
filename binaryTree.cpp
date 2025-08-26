@@ -39,18 +39,18 @@ using namespace std;
 
 // }
 
-void PrintNum(int n){
-    if(n ==1){
-        cout<< "1 \n";
-        return;
-    };
+// void PrintNum(int n){
+//     if(n ==1){
+//         cout<< "1 \n";
+//         return;
+//     };
 
-    cout << n << " ";
+//     cout << n << " ";
 
-    PrintNum(n-1);
-}
-int main(){
-    PrintNum(5000000000000000);
-    return 0;
-}
+//     PrintNum(n-1);
+// }
+// int main(){
+//     PrintNum(5000000000000000);
+//     return 0;
+// }
 
