@@ -2,7 +2,7 @@
 using namespace std;
 #include<vector>
 
-void merge(vector<string> &arr , string st , string mid , string end){
+void merge(vector<string> &arr , int st , int mid , int end){
     
     vector<string> temp ;
     int i = st , j = mid +1;
